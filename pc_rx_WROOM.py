@@ -4,6 +4,7 @@ import cv2
 import numpy as np
 import time
 
+# CHANGE BASED THE PORT YOUR PC IS USING TO COMMUNICATE WITH THE BOARD!!!
 SERIAL_PORT = 'COM7'
 BAUD_RATE = 6000000  # match the ESP32-S3 baud rate
 
